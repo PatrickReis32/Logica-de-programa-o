@@ -1,7 +1,13 @@
-// escreva um programa que escreva boa noie
+//Exercicio 01
+//Ler um número inteiro e mostrar.
 
 #include<stdio.h>
- int main(){
- 	printf("Boa noite!");
- 	
- }
+#include<locale.h>
+	int main(){
+		setlocale(LC_ALL, "Portuguese");
+			int numero;
+				printf("Digite um numero inteiro?\n");
+					scanf("%d", &numero);
+						printf("o numero é: %d", numero);
+	}
+	
